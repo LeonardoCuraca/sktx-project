@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.dashboard {
+  padding: 8px;
+}
+
+.dashboard-content {
+  transition: 200ms;
+}
+
+img {
+  cursor: pointer;
+}
+
+.toggleIcons {
+  margin-bottom: -16px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menuTogleIcon {
+  cursor: pointer;
+  top: 8px;
+}

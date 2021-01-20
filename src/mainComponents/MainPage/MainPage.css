@@ -1,0 +1,24 @@
+.MainPage__content {
+  display: flex;
+  height: 100vh;
+}
+
+.MainPage__contentLeft {
+  width: 50%;
+  align-self: center;
+  text-align: center;
+}
+
+.MainPage__logo {
+  width: 65%;
+}
+
+.MainPage__contentRight {
+  width: 50%;
+  background-image: url("panel_bg.png");
+  background-color: #18b3c0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
