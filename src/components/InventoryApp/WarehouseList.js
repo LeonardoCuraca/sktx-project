@@ -52,10 +52,10 @@ export default function WarehouseList() {
                     <i className="add icon" />
                     Añadir Almacén
                 </Link>
-                <button className="ui basic button right floated">
+                {/* <button className="ui basic button right floated">
                     <i className="clipboard list icon" />
                     Generar Reporte
-                </button>
+                </button> */}
             </div>
             {messageState !== null &&
                 <div className="sixteen wide column">

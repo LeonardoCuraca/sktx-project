@@ -51,10 +51,10 @@ export default function ProductList() {
                     <i className="add icon" />
                     Añadir Producto
                 </Link>
-                <button className="ui basic button right floated">
+                {/* <button className="ui basic button right floated">
                     <i className="clipboard list icon" />
                     Generar Reporte
-                </button>
+                </button> */}
             </div>
             {messageState !== null &&
                 <div className="sixteen wide column">
