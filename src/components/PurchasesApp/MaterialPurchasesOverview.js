@@ -59,7 +59,7 @@ export default function MaterialPurchasesOverview() {
                             <th>Fecha</th>
                             <th>Proveedor</th>
                             <th>Encargado</th>
-                            <th>Cantidad de Productos</th>
+                            <th>Cantidad de Materiales</th>
                         </tr>
                     </thead>
                     <tbody>

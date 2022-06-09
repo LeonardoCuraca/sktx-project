@@ -40,7 +40,7 @@ function Login() {
         <h2 className="ui teal image header">
           <img src="https://semantic-ui.com/examples/assets/images/logo.png" alt="ddasd" className="image" />
           <div className="content">
-            Log-in to your account
+            Iniciar Sesión
           </div>
         </h2>
         <form className={loading ? "ui loading large form" : "ui large form"} onSubmit={handleSubmit(onSubmit)}>
@@ -51,10 +51,10 @@ function Login() {
                 <input
                   type="text"
                   name="userEmail"
-                  placeholder="E-mail address"
+                  placeholder="Correo"
                   ref={
                     register({
-                        required: {value: true, message: 'El campo Email es obligatorio'}
+                        required: {value: true, message: 'El campo Correo es obligatorio'}
                     })
                   }>
                 </input>
@@ -66,10 +66,10 @@ function Login() {
                 <input
                   type="password"
                   name="password"
-                  placeholder="Password"
+                  placeholder="Contraseña"
                   ref={
                     register({
-                        required: {value: true, message: 'La contraseña es obligatoria'}
+                        required: {value: true, message: 'La Contraseña es obligatoria'}
                     })
                   }>
                 </input>
