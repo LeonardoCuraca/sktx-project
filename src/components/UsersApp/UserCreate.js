@@ -157,12 +157,12 @@ export default function UserCreate() {
               </input>
             </div>
             <div className="eight wide field">
-              <label>Distrito</label>
+              <label>Roles</label>
               <select className="ui search dropdown"
                 name="rolesId"
                 ref={
                     register({
-                        required: {value: true, message: 'El Distrito es obligatorio'}
+                        required: {value: true, message: 'El Cargo es obligatorio'}
                     })
                 }>
                 <option value="">Roles</option>

@@ -79,7 +79,7 @@ function Test() {
         delete returnData['warehouse-id'];
         console.log(returnData)
         if (!returnData.products) {
-            setMessage({'header': 'Advertencia', 'content': 'La venta no contiene productos en su detalle.'})
+            setMessage({'header': 'Advertencia', 'content': 'La compra no contiene productos en su detalle.'})
             setFormState('warning');
             return
         }
@@ -141,7 +141,7 @@ function Test() {
                         name="providerId"
                         ref={
                             register({
-                                required: {value: true, message: 'El provider es obligatorio'}
+                                required: {value: true, message: 'El proveedor es obligatorio'}
                             })
                         }>
                             <option value="">Proveedores</option>
@@ -154,7 +154,7 @@ function Test() {
                         }
                     </select>
                 </div>
-                <h4 className="ui dividing header">Agregar Productos a la Venta</h4>
+                <h4 className="ui dividing header">Agregar Productos a la Compra</h4>
                 <div className="fields">
                     <div className="four wide required field">
                         <label>Almacén</label>
@@ -210,8 +210,8 @@ function Test() {
                     </div>
                 </div>
                 <div className="ui teal button" onClick={() => addList()}>Agregar</div>
-                <button className="ui green button" type="submit">Realizar Venta</button>
-                <h4 className="ui dividing header">Detalle de Venta</h4>
+                <button className="ui green button" type="submit">Realizar Compra</button>
+                <h4 className="ui dividing header">Detalle de Compra</h4>
                 <table className="ui very basic celled fluid table">
                     <thead>
                         <tr>
