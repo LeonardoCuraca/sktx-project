@@ -155,7 +155,7 @@ function Test() {
                         }
                     </select>
                 </div>
-                <h4 className="ui dividing header">Agregar Productos a la Venta</h4>
+                <h4 className="ui dividing header">Agregar Productos a la Compra</h4>
                 <div className="fields">
                     <div className="four wide required field">
                         <label>Almacén</label>
@@ -211,8 +211,8 @@ function Test() {
                     </div>
                 </div>
                 <div className="ui teal button" onClick={() => addList()}>Agregar</div>
-                <button className="ui green button" type="submit">Realizar Venta</button>
-                <h4 className="ui dividing header">Detalle de Venta</h4>
+                <button className="ui green button" type="submit">Realizar Compra</button>
+                <h4 className="ui dividing header">Detalle de Compra</h4>
                 <table class="ui very basic celled fluid table">
                     <thead>
                         <tr>

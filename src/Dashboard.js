@@ -177,7 +177,7 @@ function DashboardOptions() {
               <Link className="item" to={`${url}/sales/customers/create`}>Crear cliente</Link>
             </div>
           </div>
-          <div className="item">
+          {/* <div className="item">
             <div className="header">Productos</div>
             <div className="menu">
               <Link className="item" to={`${url}/purchase/product`}>Listar productos</Link>
@@ -185,7 +185,7 @@ function DashboardOptions() {
             <div className="menu">
               <Link className="item" to={`${url}/purchase/product/create`}>Crear producto</Link>
             </div>
-          </div>
+          </div> */}
         </Route>
         <Route path={`${path}/projects`}>
           <div className="item">

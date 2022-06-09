@@ -50,7 +50,7 @@ export default function MaterialList() {
             <div className="sixteen wide column">
                 <Link className="ui basic button" to={`${url}/create`}>
                     <i className="add icon" />
-                    Añadir Producto
+                    Añadir Material
                 </Link>
             </div>
             {messageState !== null &&
