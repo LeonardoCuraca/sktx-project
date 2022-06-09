@@ -74,7 +74,7 @@ export default function InventoryTable() {
               <th>ID</th>
               <th>Producto</th>
               <th>Talla</th>
-              <th>color</th>
+              <th>Color</th>
               <th>Stock</th>
               <th>Precio</th>
               <th colspan="2" className="center aligned">Acciones</th>

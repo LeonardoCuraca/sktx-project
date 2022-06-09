@@ -77,7 +77,7 @@ export default function MaterialStockRecord() {
     return (
         <div className="ui stackable centered grid">
             <div className="fifteen wide column">
-                <div className="ui selection dropdown">
+                {/* <div className="ui selection dropdown">
                     <i className="dropdown icon"></i>
                     <span className="default text">Filtrar por almacén</span>
                     <div className="menu">
@@ -96,7 +96,7 @@ export default function MaterialStockRecord() {
                             })
                         }
                     </div>
-                </div>
+                </div> */}
                 <table className="ui selectable compact celled fixed single line table" style={{borderTop: ".2em solid #18b3c0"}}>
                     <thead>
                         <tr>
