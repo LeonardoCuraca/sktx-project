@@ -137,6 +137,7 @@ export default function CreateWarehouse() {
               <input type="tel"
                 placeholder="Número de contacto"
                 name="warehouseTelephone"
+                maxLength={9}
                 ref={
                   register({
                       required: {value: true, message: 'El número de teléfono del almacén es obligatorio'}
@@ -227,6 +228,7 @@ export default function CreateWarehouse() {
               <label>Número de dirección</label>
               <input 
                 type="number"
+                min="1"
                 placeholder="Número de dirección"
                 name="address.addressNumber"
                 ref={

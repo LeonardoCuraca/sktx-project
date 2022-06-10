@@ -125,6 +125,7 @@ export default function CustomerCreate() {
                 <input type="tel"
                     placeholder="Número de RUC"
                     name="clientRuc"
+                    maxLength={11}
                     ref={register()}
                 >
                 </input>
@@ -133,6 +134,7 @@ export default function CustomerCreate() {
                 <label>Teléfono</label>
                 <input type="tel"
                     placeholder="Número de contacto"
+                    maxLength={9}
                     name="clientTelephone"
                     ref={register()}
                 >
@@ -227,6 +229,7 @@ export default function CustomerCreate() {
               <input 
                 type="number"
                 placeholder="Número de dirección"
+                min={1}
                 name="address.addressNumber"
                 ref={
                     register({

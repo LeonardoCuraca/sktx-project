@@ -151,6 +151,7 @@ export default function UserCreate() {
                 <label>Teléfono</label>
                 <input type="tel"
                     placeholder="Número de contacto"
+                    maxLength={9}
                     name="userTelephone"
                     ref={register()}
                 >
@@ -255,6 +256,7 @@ export default function UserCreate() {
               <input 
                 type="number"
                 placeholder="Número de dirección"
+                min={1}
                 name="address.addressNumber"
                 ref={
                     register({

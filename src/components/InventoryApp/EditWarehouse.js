@@ -102,6 +102,7 @@ React.useEffect(() => {
               <label>Teléfono</label>
               <input type="tel"
                 placeholder="Número de contacto"
+                maxLength={9}
                 name="warehouseTelephone"
                 ref={
                   register({

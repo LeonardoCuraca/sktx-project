@@ -124,6 +124,7 @@ export default function ProviderCreate() {
                 <label>RUC</label>
                 <input type="tel"
                     placeholder="Número de RUC"
+                    maxLength={11}
                     name="providerRuc"
                     ref={register()}
                 >
@@ -133,6 +134,7 @@ export default function ProviderCreate() {
                 <label>Teléfono</label>
                 <input type="tel"
                     placeholder="Número de contacto"
+                    maxLength={9}
                     name="providerTelephone"
                     ref={register()}
                 >
@@ -228,6 +230,7 @@ export default function ProviderCreate() {
                 type="number"
                 placeholder="Número de dirección"
                 name="address.addressNumber"
+                min={1}
                 ref={
                     register({
                         required: {value: true, message: 'El Número de la dirección es Obligatorio'}
